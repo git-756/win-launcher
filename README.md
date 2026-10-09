@@ -90,3 +90,7 @@ cargo test
 - `src/shutdown_ui.rs` … シャットダウン予約
 - `src/schedule.rs` … 時刻の解釈と、秒数の計算
 - `src/win.rs` … Win32 API の薄いラッパー（[windows-sys](https://crates.io/crates/windows-sys)）
+
+## ライセンス
+
+[MIT License](LICENSE)

@@ -2,6 +2,7 @@
 name = "win-launcher"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 description = "タスクトレイ常駐ランチャー（行先・シャットダウン予約・各種リンク）"
 
 # Windows専用の依存。他OSでは時刻計算ロジックのテストだけ通る。
