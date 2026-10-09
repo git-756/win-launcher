@@ -1,0 +1,22 @@
+# win-launcher の設定ファイル（文字コードは UTF-8 で保存してください）
+# 保存すると、数秒でメニューに反映されます。再起動は不要です。
+#
+# 書き方:   名称 | 開く先
+#   開く先 … URL・ファイル・フォルダ。%USERNAME% などの環境変数も使えます。
+#   -       … 区切り線（1行に「-」だけ）
+#   @shutdown [URL] … シャットダウン予約。URL を書くと、先にそのページを開きます。
+#   # で始まる行はコメント、空行は無視されます。
+#
+# 書き間違いの行は、メニューの下に「設定エラー」として表示されます。
+
+# --- Webサイト（既定のブラウザで開きます） ---
+Samurai Human Go | https://samurai-human-go.com/
+Samurai Human Go (Brain) | https://brain.samurai-human-go.com/
+Google | https://www.google.com/
+-
+# --- エクスプローラーで開くフォルダ ---
+この設定ファイルのフォルダ | %APPDATA%\win-launcher
+デスクトップ | shell:Desktop
+-
+# --- シャットダウン予約（時刻を入力する画面が開きます） ---
+シャットダウン予約 | @shutdown
